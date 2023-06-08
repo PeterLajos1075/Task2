@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\KOVACS_PETE\\Desktop\\Probák\\Task2.Console\\Task2.Console.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\KOVACS_PETE\\Desktop\\Probák\\Task2.Console\\Task2.Console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\KOVACS_PETE\\Desktop\\Probák\\Task2.Console\\Task2.Console.csproj",
+        "projectName": "Task2.Console",
+        "projectPath": "C:\\Users\\KOVACS_PETE\\Desktop\\Probák\\Task2.Console\\Task2.Console.csproj",
+        "packagesPath": "C:\\Users\\KOVACS_PETE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KOVACS_PETE\\Desktop\\Probák\\Task2.Console\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\KOVACS_PETE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\KOVACS_PETE\\Desktop\\Probák\\Task2\\Task2\\Task2.csproj": {
+                "projectPath": "C:\\Users\\KOVACS_PETE\\Desktop\\Probák\\Task2\\Task2\\Task2.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\KOVACS_PETE\\Desktop\\Probák\\Task2\\Task2\\Task2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\KOVACS_PETE\\Desktop\\Probák\\Task2\\Task2\\Task2.csproj",
+        "projectName": "Task2",
+        "projectPath": "C:\\Users\\KOVACS_PETE\\Desktop\\Probák\\Task2\\Task2\\Task2.csproj",
+        "packagesPath": "C:\\Users\\KOVACS_PETE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KOVACS_PETE\\Desktop\\Probák\\Task2\\Task2\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\KOVACS_PETE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
