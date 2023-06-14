@@ -8,11 +8,8 @@ namespace Task2.Context
     {
         public TestDbContext(DbContextOptions options) : base(options)
         {
+
         }
-
-
        public  DbSet<AddressModel> Addresses {get; set;}
-
-
     }
 }

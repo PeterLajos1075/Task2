@@ -1,8 +1,7 @@
 using Task2.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Task2.Context;
-
-
+using Task2.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,7 +19,7 @@ builder.Services.AddDbContext<TestDbContext>(opt =>
     opt.UseInMemoryDatabase("TestTodo");
 });
 
-builder.Services.AddTransient<AddressRepository>();
+builder.Services.AddTransient<ICrud<AddressModel> ,AddressRepository>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
